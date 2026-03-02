@@ -1,8 +1,6 @@
 package main
 
-import "fmt"
-
 func main() {
 	cards := newdeck()
-	fmt.Println(cards.toString())
+	cards.saveToFile("my_cards")
 }
